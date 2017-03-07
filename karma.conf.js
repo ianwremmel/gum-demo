@@ -48,11 +48,10 @@ module.exports = function(config) {
   if (process.env.SAUCE)  {
     cfg.sauceLabs = {
       build: `local-${process.env.USER}-${Date.now()}`,
-      // connectOptions: {
-      //   username: process.env.SAUCE_USERNAME,
-      //   accessKey: process.env.SAUCE_ACCESS_KEY,
-      //   tunnelIdentifier: Date.now()
-      // },
+      connectOptions: {
+        username: process.env.SAUCE_USERNAME,
+        accessKey: process.env.SAUCE_ACCESS_KEY
+      },
       recordScreenshots: true,
       recordVideo: true
     }
