@@ -1,5 +1,7 @@
 # getUserMedia Demo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ianwremmel/gum-demo.svg)](https://greenkeeper.io/)
+
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 > Test case for debugging `getUserMedia()` timeouts on Sauce Labs VMs
